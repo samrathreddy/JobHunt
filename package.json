@@ -1,0 +1,11 @@
+{
+  "name": "jobhub",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"cd frontend && npm run dev\" \"cd server && npm run dev\"",
+    "install-all": "npm install && cd frontend && npm install && cd ../server && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+} 
